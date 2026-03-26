@@ -1,1 +1,25 @@
-eyJuYW1lIjoibWlhbWktcHJvYmF0ZS1ncm91cCIsInZlcnNpb24iOiIwLjEuMCIsInByaXZhdGUiOnRydWUsInNjcmlwdHMiOnsiZGV2IjoibmV4dCBkZXYiLCJidWlsZCI6Im5leHQgYnVpbGQiLCJzdGFydCI6Im5leHQgc3RhcnQiLCJsaW50IjoibmV4dCBsaW50In0sImRlcGVuZGVuY2llcyI6eyJuZXh0IjoiMTUuMi4zIiwicmVhY3QiOiJeMTkuMC4wIiwicmVhY3QtZG9tIjoiXjE5LjAuMCJ9LCJkZXZEZXBlbmRlbmNpZXMiOnsiQHR5cGVzL25vZGUiOiJeMjAiLCJAdHlwZXMvcmVhY3QiOiJeMTkiLCJAdHlwZXMvcmVhY3QtZG9tIjoiXjE5IiwiYXV0b3ByZWZpeGVyIjoiXjEwLjQuMjAiLCJwb3N0Y3NzIjoiXjgiLCJ0YWlsd2luZGNzcyI6Il4zLjQuMTciLCJ0eXBlc2NyaXB0IjoiXjUifX0K
+{
+  "name": "miami-probate-group",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}
