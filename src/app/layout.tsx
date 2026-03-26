@@ -1,1 +1,9 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgIi4vZ2xvYmFscy5jc3MiOwpleHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0gewogIHRpdGxlOiAiTWlhbWkgUHJvYmF0ZSBHcm91cCB8IFByb2JhdGUgTGF3IEF0dG9ybmV5cyIsCiAgZGVzY3JpcHRpb246ICJTb3V0aCBGbG9yaWRhJ3MgcHJvYmF0ZSBsYXcgc3BlY2lhbGlzdHMuIEZvcm1hbCAmIHN1bW1hcnkgYWRtaW5pc3RyYXRpb24sIHdpbGwgY29udGVzdHMsIGNyZWRpdG9yIGRlZmVuc2UsIHRydXN0IGFkbWluaXN0cmF0aW9uLiBGcmVlIGNhc2UgcmV2aWV3LiIsCn07CmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgewogIHJldHVybiA8aHRtbCBsYW5nPSJlbiI+PGJvZHk+e2NoaWxkcmVufTwvYm9keT48L2h0bWw+Owp9Cg==
+import type { Metadata } from "next";
+import "./globals.css";
+export const metadata: Metadata = {
+  title: "Miami Probate Group | Probate Law Attorneys",
+  description: "South Florida probate law specialists. Formal & summary administration, will contests, creditor defense, trust administration. Free case review.",
+};
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return <html lang="en"><body>{children}</body></html>;
+}
