@@ -1,1 +1,2 @@
-Y29uc3QgY29uZmlnID0geyBwbHVnaW5zOiB7IHRhaWx3aW5kY3NzOiB7fSwgYXV0b3ByZWZpeGVyOiB7fSB9IH07CmV4cG9ydCBkZWZhdWx0IGNvbmZpZzsK
+const config = { plugins: { tailwindcss: {}, autoprefixer: {} } };
+export default config;
